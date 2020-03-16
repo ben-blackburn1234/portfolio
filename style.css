@@ -60,4 +60,20 @@ h2 {
     font-size: 1.5rem;
   }
 } */
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.head {
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(./images/header.jpg) no-repeat middle;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
 
