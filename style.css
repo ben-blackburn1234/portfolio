@@ -60,9 +60,11 @@ h2 {
     font-size: 1.5rem;
   }
 } */
+
+$break_xs: 576px;
+
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -82,12 +84,12 @@ body {
 
 .banner {
   color: white;
+
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .banner h1 {
@@ -104,6 +106,11 @@ body {
   padding-bottom: 66px;
   color: white;
   overflow: hidden;
+}
+
+img {
+  width: 120px;
+  height: 120px;
 }
 
 .text {
@@ -197,4 +204,3 @@ li {
 .formb {
   margin-top: 30px;
 }
-/*# sourceMappingURL=style.css.map */
