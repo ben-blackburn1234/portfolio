@@ -119,3 +119,14 @@
 //     // Init TypeWriter
 //     new TypeWriter(txtElement, words, wait);
 //   }
+
+// Email.send({
+//     SecureToken : "bc7c1e0b-faf0-4d53-ba59-282b1a1cb0ee",
+//     To : 'ben.blackburn.dev@gmail.com',
+//     From : "ben.blackburn.dev@gmail.com",
+//     Subject : "Portfolio website notification message",
+//     Body : "And this is the body"
+// }).then(
+//   message => alert(message)
+// );
+
